@@ -1,6 +1,6 @@
 ﻿namespace A_1_3690.Models
 {
-    public class Products
+    public class Product
     {
         public int Product_id { get; set; }
         public int cat_id { get; set; }
