@@ -9,11 +9,10 @@ namespace A_1_3690.ContextClass
         {
         }
 
-        public DbSet<Product> Products { get; set; }
-        public DbSet<Customer> Customers { get; set; }
-        public DbSet<Category> Catagories { get; set; }
-        public DbSet<Admin> Admins { get; set; }
-        public DbSet<Cart> Carts { get; set; }
+        public DbSet<Product> Product { get; set; }
+        public DbSet<Customer> Customer { get; set; 
+        public DbSet<Admin> Admin { get; set; }
+        public DbSet<Cart> Order { get; set; }
         public DbSet<A_1_3690.Models.Category> Category { get; set; }
 
 
