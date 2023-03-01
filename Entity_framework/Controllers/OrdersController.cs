@@ -16,23 +16,23 @@ namespace A_1_3690.Controllers
     {
         private readonly Context _context;
 
-        public OrderController(Context context)
+        public OrdersController(Context context)
         {
             _context = context;
         }
 
         // GET: api/Order
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Order>>> GetOrder()
+        public async Task<ActionResult<IEnumerable<Order>>> GetOrders()
         {
-            return await _context.Order.ToListAsync();
+            return await _context.Orders.ToListAsync();
         }
 
         // GET: api/Order/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Order>> GetOrder(int id)
         {
-            var order = await _context.Order.FindAsync(id);
+            var order = await _context.Orders.FindAsync(id);
 
             if (order == null)
             {
