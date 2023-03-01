@@ -95,7 +95,7 @@ namespace A_1_3690.Controllers
             }
 
             _context.Customers.Remove(customer);
-            await _context.SaveChangesAsync();
+            await _context.SaveChangesAsync();   
 
             return NoContent();
         }
