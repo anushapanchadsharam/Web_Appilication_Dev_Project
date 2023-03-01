@@ -12,7 +12,7 @@ namespace A_1_3690.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CategoryController : ControllerBase
+    public class CategoriesController : ControllerBase
     {
         private readonly Context _context;
 
