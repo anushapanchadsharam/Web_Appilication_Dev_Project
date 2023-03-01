@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using A_1_3690.ContextClass;
-using A_1_3690.Models;
+using A_1_3690.Models; 
 
 namespace A_1_3690.Controllers
 {
