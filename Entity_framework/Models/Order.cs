@@ -1,6 +1,6 @@
 ﻿namespace A_1_3690.Models
 {
-    public class Orders
+    public class Order
     {
         public int Order_id { get; set; }
         public string Customer_id { get; set; }
