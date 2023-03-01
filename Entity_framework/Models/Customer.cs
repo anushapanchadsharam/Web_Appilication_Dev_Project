@@ -1,6 +1,6 @@
 ﻿namespace A_1_3690.Models
 {
-    public class Customers
+    public class Customer
     {
         
         public string Customer_address { get; set; }
