@@ -1,2 +1,0 @@
-# Web_Appilication_Dev_Project
-FurnitureShop_web_appilication
